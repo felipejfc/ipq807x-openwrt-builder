@@ -64,7 +64,6 @@ jobs:
           echo "CONFIG_PACKAGE_luci-app-qos=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-wol=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-ttyd=y" >> .config
-          echo "CONFIG_PACKAGE_luci-app-https-dns-proxy=y\n" >> .config
           echo "CONFIG_PACKAGE_wireguard=y" >> .config
           echo "CONFIG_PACKAGE_qrencode=y" >> .config
           echo "CONFIG_PACKAGE_wpad-basic-wolfssl=m\n" >> .config
